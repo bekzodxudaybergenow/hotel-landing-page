@@ -1,6 +1,6 @@
 Loyiha tugallanmadi!\
 Figma: [Maket](https://www.figma.com/design/wJPQKGpk1BXRL9IKx87UOP/Hotel-website-Ui-design-%E2%9C%A8-(Community)?node-id=0-1&t=FyQD5f8vf2WjJXgK-0)\
-Netlify: [View]()
+Netlify: [View](https://hotel-landing-page-bb.netlify.app/)
 
 Qo'shimcha foydalanildi: TinyPNG, SVGOMG, Transfonter;
 
