@@ -395,6 +395,11 @@ body {
   display: none;
 }
 
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
   position: fixed;
   width: 100%;
