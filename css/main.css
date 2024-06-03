@@ -598,7 +598,10 @@ body {
     opacity: 0.8;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 14px 0;
+  }
   .header-logo img {
     width: 58px;
     height: 50px;
