@@ -12,6 +12,14 @@
     justify-content: space-between;
 }
 .header-logo {
+    transition: opacity .2s ease;
+
+    &:hover {
+        opacity: .8;
+    }
+    &:active {
+        opacity: 1;
+    }
     & img {
         width: 45px;
         height: 38px;
@@ -29,6 +37,15 @@
     background-color: var(--accent-color2);
     border-radius: 4px;
     box-shadow: 1px 2px 0 rgba(0, 0, 0, .3);
+    transition: opacity .2s ease;
+    cursor: pointer;
+
+    &:hover {
+        opacity: .8;
+    }
+    &:active {
+        opacity: 1;
+    }
 }
 .header-menu__btn-inner {
     position: relative;
@@ -43,7 +60,6 @@
         position: absolute;
         background-color: var(--accent-color);
         border-radius: 4px;
-        box-shadow: 0 0 2px rgba(0, 0, 0, .8);
     }
     
     & span:nth-child(2) {
@@ -126,6 +142,14 @@
         color: var(--accent-color);
         background-color: var(--accent-color2);
         box-shadow: 1px 2px 0 rgba(0, 0, 0, .3);
+        transition: opacity .2s ease;
+
+        &:hover {
+            opacity: .8;
+        }
+        &:active {
+            opacity: 1;
+        }
     }
     .header-logo {
         margin-right: auto;
@@ -155,5 +179,30 @@
         text-decoration: none;
         color: var(--accent-color);
         opacity: .6;
+        transition: opacity .2s ease;
+
+        &:hover {
+            opacity: 1;
+        }
+        &:active {
+            opacity: .8;
+        }
    }
+}
+@media screen and (min-width: 1440px) {
+    .header-logo img {
+        width: 58px;
+        height: 50px;
+    }
+    .header-btn {
+        width: 120px;
+        height: 50px;
+        border-radius: 40px;
+    }
+    .header-nav {
+        column-gap: 50px;
+    }
+    .header-nav__link {
+        font-size: 18px;
+    }
 }
