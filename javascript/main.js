@@ -4,6 +4,10 @@ let headerMenuBtn = document.querySelector('.header-menu__btn');
 let headerSidebar = document.querySelector('.header-sidebar');
 let sidebarCloseBtn = document.querySelector('.sidebar-close__btn');
 let sidebarShadow = document.querySelector('.sidebar-shadow');
+let bookingForm = document.querySelectorAll('.booking-form');
+let bookingItems = document.querySelectorAll('.booking-item');
+let bookingItemInput = document.querySelector('.booking-item__input');
+let bookingItemArrow = document.querySelector('.booking-item__arrow');
 
 window.addEventListener('scroll', () => {
     let currentScroll = window.pageYOffset;
@@ -31,4 +35,14 @@ sidebarCloseBtn.addEventListener('click', () => {
 sidebarShadow.addEventListener('click', () => {
     headerSidebar.classList.remove('sidebarHide');
     sidebarShadow.classList.add('hide');
+})
+
+
+
+// Booking Section
+
+bookingItems.forEach((item) => {
+    item.addEventListener('click', () => {
+        item.nextElementSibling.classList.toggle('booking-active');
+    })
 })
