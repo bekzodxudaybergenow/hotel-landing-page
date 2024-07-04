@@ -48,25 +48,31 @@
             <div class="container">
                 <div class="booking-row">
                     <form class="booking-form">
-                        <div class="booking-item">
-                            <h4 class="booking-item__title">Date <img src="./images/booking/arrow.svg" width="12" height="6" alt="Arrow icon"></h4>
-                            <span class="booking-item__desc">Choose date</span>
-                            <input class="booking-item__input"  type="date">
+                        <div class="booking-parent">
+                            <div class="booking-item">
+                                <h4 class="booking-item__title">Date <img class="booking-item__arrow" src="./images/booking/arrow.svg" width="12" height="6" alt="Arrow icon"></h4>
+                                <span class="booking-item__desc">Choose date</span>
+                            </div>
+                            <input class="booking-item__input" type="date">
                         </div>
-                        <div class="booking-item">
-                            <h4 class="booking-item__title">Guest <img src="./images/booking/arrow.svg" width="12" height="6" alt="Arrow icon"></h4>
-                            <span class="booking-item__desc">Choose date</span>
-                            <input class="booking-item__input"  type="number">
+                        <div class="booking-parent">
+                            <div class="booking-item">
+                                <h4 class="booking-item__title">Guest <img src="./images/booking/arrow.svg" width="12" height="6" alt="Arrow icon"></h4>
+                                <span class="booking-item__desc">Add +</span>
+                            </div>
+                            <input class="booking-item__input"  type="number" step="1" placeholder="Enter a number">
                         </div>
-                        <div class="booking-item">
-                            <h4 class="booking-item__title">Room <img src="./images/booking/arrow.svg" width="12" height="6" alt="Arrow icon"></h4>
-                            <span class="booking-item__desc">Choose date</span>
-                            <input class="booking-item__input"  type="number"  id="points" name="points" step="1">
+                        <div class="booking-parent">
+                            <div class="booking-item">
+                                <h4 class="booking-item__title">Room <img src="./images/booking/arrow.svg" width="12" height="6" alt="Arrow icon"></h4>
+                                <span class="booking-item__desc">Choose room</span>
+                            </div>
+                            <input class="booking-item__input"  type="number" name="points" step="1" placeholder="Select a room">
                         </div>
-                        <div class="booking-seach">
+                        <button class="booking-seach-btn">
                             <img class="booking-search__icon" src="./images/booking/search.svg" alt="Search Icon">
-                            <input class="booking-search__btn" type="submit" value="Search">
-                        </div>
+                            <span class="booking-search__desc">Search</span>
+                        </button>
                     </form>
                 </div>
             </div>
