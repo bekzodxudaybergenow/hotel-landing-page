@@ -5,6 +5,7 @@
     transition: all .8s ease;
     background-color: var(--light-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    z-index: 1000;
 }
 .header-row {
     display: flex;
