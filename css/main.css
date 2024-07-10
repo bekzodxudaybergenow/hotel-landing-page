@@ -795,3 +795,34 @@ body {
     width: 150px;
   }
 }
+.service {
+  padding: 80px 0 80px;
+}
+
+.service-title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  list-style: none;
+}
+
+.service-list__item {
+  text-align: center;
+}
+
+.service-item__image {
+  margin-bottom: 15px;
+}
+
+.service-item__title {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--accennt-color3);
+}
