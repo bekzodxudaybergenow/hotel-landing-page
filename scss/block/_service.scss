@@ -1,10 +1,10 @@
 .service {
-    padding: 80px 0 80px;
+    padding: 100px 0 80px;
 }
 .service-title {
     font-size: 28px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .service-list {
     display: flex;
@@ -27,10 +27,10 @@
 }
 @media screen and (min-width: 375px) {
     .service {
-        padding-top: 95px;
+        padding-top: 120px;
     }
     .service-title {
-        margin-bottom: 70px;
+        margin-bottom: 95px;
     }
     .service-list {
         flex-direction: row;
