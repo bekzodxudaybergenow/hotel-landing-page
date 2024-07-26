@@ -402,6 +402,7 @@ body {
 }
 
 .title {
+  font-family: var(--font-title);
   font-weight: 700;
   font-size: 40px;
   color: var(--main-color);
