@@ -1,0 +1,27 @@
+.about {
+    padding: 90px 0 80px;
+}
+.about-image {
+    max-width: 492px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid darkkhaki;
+    padding: 6px;
+}
+.about-content {
+    margin-top: 20px;
+}
+.about-content__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+
+    & span {
+        color: #887464;
+    }
+}
+.about-content__desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--accent-color3);
+}
