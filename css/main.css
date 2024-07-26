@@ -883,7 +883,7 @@ body {
 }
 
 .rooms-title {
-  max-width: 320px;
+  max-width: 360px;
   font-size: 24px;
   line-height: 30px;
   margin: 0 auto;
@@ -946,7 +946,7 @@ body {
 .rooms-card__item span {
   font-weight: 700;
   font-size: 16px;
-  color: var(--accennt-color3);
+  color: var(--accent-color3);
 }
 
 .rooms-card__price {
@@ -975,7 +975,7 @@ body {
 @media screen and (min-width: 1024px) {
   .rooms-list {
     column-gap: 0;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 60px;
   }
   .rooms-title {

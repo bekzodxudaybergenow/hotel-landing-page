@@ -2,7 +2,7 @@
     padding-top: 70px;
 }
 .rooms-title {
-    max-width: 320px;
+    max-width: 360px;
     font-size: 24px;
     line-height: 30px;
     margin: 0 auto;
@@ -58,7 +58,7 @@
     & span {
         font-weight: 700;
         font-size: 16px;
-        color: var(--accennt-color3);
+        color: var(--accent-color3);
     }
 }
 .rooms-card__price {
@@ -87,16 +87,11 @@
 @media screen and (min-width: 1024px) {
     .rooms-list {
         column-gap: 0;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 60px;
     }
     .rooms-title {
         text-align: left;
         margin: 0;
-    }
-}
-@media screen and (min-width: 1440px) {
-    .rooms-list {
-        justify-content: space-between;
     }
 }
