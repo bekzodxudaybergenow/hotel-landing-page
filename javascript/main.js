@@ -46,3 +46,23 @@ bookingItems.forEach((item) => {
         item.nextElementSibling.classList.toggle('booking-active');
     })
 })
+
+
+// Benefits section Play-Pause
+
+let playBtn = document.querySelector('.benefits-video-play');
+let benefitsClip = document.querySelector('.benefits-video-clip');
+let count = 0;
+
+benefitsClip.addEventListener('click', () => {
+    if(count == 0) {
+        count = 1;
+        benefitsClip.play();
+        playBtn.style.display = 'none';
+    }
+    else {
+        count = 0
+        benefitsClip.pause();
+        playBtn.style.display = 'block';
+    }
+})
