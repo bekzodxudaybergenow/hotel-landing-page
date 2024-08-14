@@ -369,6 +369,8 @@ template {
   --accent-color2: #D9D3CE;
   --accent-color3: #808080;
   --light-color: #ffffff;
+  --title-color: #333333;
+  --text-color: #999999;
   --font-main: "Open Sans", sans-serif;
   --font-title: "Montserrat Alternates", sans-serif;
 }
@@ -405,7 +407,7 @@ body {
   font-family: var(--font-title);
   font-weight: 700;
   font-size: 40px;
-  color: var(--main-color);
+  color: var(--title-color);
 }
 
 .header {
